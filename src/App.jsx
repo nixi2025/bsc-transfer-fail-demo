@@ -1,10 +1,9 @@
-import React from "react";
-import FailTransferForm from "./components/FailTransferForm";
+import React from 'react';
+
 export default function App() {
   return (
-    <div style={{ padding: 20, fontFamily: "sans-serif" }}>
-      <h1>BSC 模拟转账失败工具</h1>
-      <FailTransferForm />
+    <div style={{ padding: '2rem', fontSize: '1.5rem' }}>
+      ✅ BSC 转账失败模拟部署成功！
     </div>
   );
 }
